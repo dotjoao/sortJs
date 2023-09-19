@@ -18,11 +18,7 @@ function showSlide(n) {
 }
 
 sortearBotao.addEventListener("click", function() {
-    var numeroAleatorio = Math.floor(Math.random() * 4) + 0; // Gera um número aleatório entre 1 e 100
-    if(arrayNomes[numeroAleatorio] = 0){
-        elementoHTML.style.fontFamily = fontes[elemento];
-    }
-    
+    var numeroAleatorio = Math.floor(Math.random() * 4) + 0; 
     sorteioDisplay.textContent =  arrayNomes[numeroAleatorio];
     showSlide(currentSlide=numeroAleatorio);
     
